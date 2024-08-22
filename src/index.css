@@ -62,7 +62,7 @@ button{
 }
   */
 
-
+/*
   *{
     padding: 0;
     margin: 0;
@@ -97,7 +97,7 @@ button{
     display: grid;
     width: 60px;
     height: 60px;
-    background: #292929;
+    background: #292929; 
     place-items: center;
     border: 1px solid rgba(0,0,0,0.1); 
     color: #fff;
@@ -120,4 +120,36 @@ button{
 
   .calculator span.equal{
     background: rgb(255, 163, 26);
-  }
+  }*/
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  right:  20px;
+  padding: 10px 20px;
+  background: transparent;
+  cursor: pointer;
+}
+
+section.content h1{
+  font-size: 5rem;
+  font-family: 'Bungee Outline', cursive;
+  line-height: 80px;
+}
